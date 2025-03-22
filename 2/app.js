@@ -39,9 +39,11 @@ change.onclick = function () {
         for (let el of document.querySelectorAll('legend')) {
             el.style = "background-color: rgb(0, 0, 0); color:#c4d7ee"; 
         }
+        save.querySelector('legend').style = "background-color: rgb(0, 0, 0); color:#c4d7ee";
         for (let el of document.querySelectorAll('fieldset')) {
             el.style = "border: 3px solid rgb(0, 0, 0); color:rgb(0, 0, 0)"; 
         }
+        save.style = "border: 3px solid rgb(0, 0, 0); color:rgb(0, 0, 0)"; 
         for (let el of document.querySelectorAll('button')) {
             el.style = "background-color: rgb(0, 0, 0); color:#c4d7ee"; 
         }
@@ -51,9 +53,11 @@ change.onclick = function () {
         for (let el of document.querySelectorAll('legend')) {
             el.style = "background-color: #707e92; color:rgb(255, 255, 255)"; 
         }
+        save.querySelector('legend').style = "background-color: #707e92; color:rgb(255, 255, 255)";
         for (let el of document.querySelectorAll('fieldset')) {
             el.style = "border: 3px solid #707e92; color:#707e92"; 
         }
+        save.style = "border: 3px solid #707e92; color:#707e92";
         for (let el of document.querySelectorAll('button')) {
             el.style = "background-color: #707e92; color:#ffffff"; 
         }
