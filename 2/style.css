@@ -1,0 +1,51 @@
+* {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+body {
+    background-color: #c4d7ee;
+}
+
+form {
+    padding: 25px;
+    width: 600px;
+    margin: 50px auto;
+}
+
+fieldset {
+    margin: 0 0 20px;
+}
+
+legend {
+    padding: 10px;
+    background-color: #707e92;
+    color: #ffffff;   
+}
+
+fieldset {
+    border: 3px solid #707e92;
+    color: #707e92;
+}
+
+.form_input {
+    margin: 10px;
+}
+
+.info {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #707e92;
+    border: none;
+    color: #ffffff;
+}
+
+.change {
+    float: right;
+}
